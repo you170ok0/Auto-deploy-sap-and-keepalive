@@ -60,7 +60,7 @@ on:
         default: ''
 
 env:
-  DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'ghcr.io/eooce/moontv:latest' }}
+  DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'ghcr.io/szemeng76/lunatv:latest' }}
   MEMORY: ${{ secrets.MEMORY || '512M' }}
   DISK: ${{ secrets.DISK || '512M' }}
 
